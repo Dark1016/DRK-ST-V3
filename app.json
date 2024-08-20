@@ -3,7 +3,7 @@
   "description": "Déployez maintenant votre DRK_ST_V1, apporté par 𝙎-𝙏𝞢𝞜. Assurez-vous de remplir toutes les valeurs pour éviter que le bot ne se mette en veille.",
   "keywords": ["bot", "node", "baileys", "whatsapp"],
   "logo": "https://telegra.ph/file/9e6011a5890dd05586b6e.jpg",
-  "repository": "https://github.com/DeeCeeXxx/Gojou-MD",
+  "repository": "https://github.com/Dark-S-TEN/DRK-ST-V3",
   "succes_url": "/",
   "stack": "container",
   "env": {
