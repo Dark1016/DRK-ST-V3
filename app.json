@@ -1,0 +1,101 @@
+{
+  "name": "DRK_ST_V1",
+  "description": "Déployez maintenant votre DRK_ST_V1, apporté par 𝙎-𝙏𝞢𝞜. Assurez-vous de remplir toutes les valeurs pour éviter que le bot ne se mette en veille.",
+  "keywords": ["bot", "node", "baileys", "whatsapp"],
+  "logo": "https://telegra.ph/file/9e6011a5890dd05586b6e.jpg",
+  "repository": "https://github.com/DeeCeeXxx/Gojou-MD",
+  "succes_url": "/",
+  "stack": "container",
+  "env": {
+    "PREFIX": {
+      "description": "Choisissez le préfixe de votre bot",
+      "value": ".",
+      "required": true
+    },
+    "AUTO_READ_STATUS": {
+      "description": "Votre statut de contact sera lu automatiquement (tapez 'yes' pour activer ou 'no' pour désactiver ; ne pas écrire en majuscules)",
+      "value": "yes",
+      "required": false
+    },
+    "AUTO_DOWNLOAD_STATUS": {
+      "description": "Votre statut de contact sera téléchargé automatiquement et envoyé (tapez 'yes' pour activer ou 'no' pour désactiver ; ne pas écrire en majuscules)",
+      "value": "no",
+      "required": false
+    },
+    "PM_PERMIT": {
+      "description": "Les autres utilisateurs ne peuvent pas utiliser votre bot en PM (tapez 'yes' pour activer ou 'no' pour désactiver ; ne pas écrire en majuscules)",
+      "value": "no",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "Mettez un nom pour votre bot",
+      "value": "DRK_ST_V1",
+      "required": false
+    },
+    "BOT_MENU_LINKS": {
+      "description": "https://telegra.ph/file/9e6011a5890dd05586b6e.jpg,https://telegra.ph/file/e78bd6952fd572b9d281a.mp4",
+      "required": false
+    },
+    "PUBLIC_MODE": {
+      "description": "Tapez 'yes' pour mettre votre bot en mode public ou 'no' pour le mettre en mode privé",
+      "value": "yes",
+      "required": false
+    },
+    "HEROKU_APY_KEY": {
+      "description": "Insérez votre clé API Heroku",
+      "value": "",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Insérez le nom de votre application Heroku (le nom que vous avez écrit au début)",
+      "value": "",
+      "required": true
+    },
+    "SESSION_ID": {
+      "description": "Mettez votre ID de session, le code que vous avez reçu après le code de jumelage",
+      "value": "",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "Votre nom",
+      "value": "𝙎-𝙏𝞢𝞜",
+      "required": false
+    },
+    "NUMERO_OWNER": {
+      "description": "Votre numéro, ne mettez pas '+' et mettez votre indicatif régional (exemple pour Haïti '509')",
+      "value": "50931461936",
+      "required": false
+    },
+    "WARN_COUNT": {
+      "description": "Limite de mise en garde pour les commandes de mise en garde",
+      "value": "3",
+      "required": false
+    },
+    "STARTING_BOT_MESSAGE": {
+      "description": "Si vous ne voulez pas de message de démarrage pour le bot, mettez 'no' sinon mettez 'yes'",
+      "value": "yes",
+      "required": true
+    },
+    "PRESENCE": {
+      "description": "Marquez votre présence : 1 pour indiquer que vous êtes en ligne même si vous ne l'êtes pas, 2 pour indiquer que vous êtes en train d'écrire un message, 3 pour indiquer que vous enregistrez actuellement un audio. Ou laissez le champ vide pour indiquer votre état réel.",
+      "value": "3",
+      "required": true
+    },
+    "ANTI_DELETE_MESSAGE": {
+      "description": "Si vous voulez activer la protection contre la suppression des messages, mettez 'yes', sinon mettez 'no'",
+      "value": "yes",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ]
+}
