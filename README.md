@@ -23,12 +23,12 @@
 
 1. **Première étape** : Obtenez votre [CODE DE PAIR_2](https://drk-ses.onrender.com).
 2. **Ensuite** : Allez dans WhatsApp > Trois points > Appareils connectés.
-3. **Cliquez sur [FORK](https://github.com/Sandro-sten/DRK_ST_V1/fork)** pour cloner le projet.
+3. **Cliquez sur [FORK](https://github.com/Dark-S-TEN/DRK-ST-V3/fork)** pour cloner le projet.
 4. **Le bot peut être déployé sur GitHub,et termux,heroku et sur Replit**.
 5. **Abonnez-vous à mon canal pour le tutoriel** : [WhatsApp Channel](https://whatsapp.com/channel/0029Vakp0UnICVfe3I2Fe72w).
 
-6. **DÉPLOIEMENT SUR REPLIT** : [Replit](https://replit.com/@darksten4/DRKSTV1?s=app).
-6. **DÉPLOIEMENT SUR GITHUB** : [Deploy](https://github.com/Dark-S-TEN/DRK_ST_V1/actions)
+6. **DÉPLOIEMENT SUR REPLIT** : [Replit]().
+6. **DÉPLOIEMENT SUR GITHUB** : [Deploy]()
 ---
 
 ## ⚠️ AVERTISSEMENT ⚠️
